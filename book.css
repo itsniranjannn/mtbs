@@ -1,0 +1,55 @@
+
+h2{
+    color:antiquewhite;
+}
+
+.card {
+      border-radius: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card-title {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+      font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mt-5 {
+    margin-top: 5rem;
+}
+
+.mt-2 {
+    margin-top: .5rem;
+}
+
+.card {
+    cursor: pointer;
+    border: 2px solid #fffcfc;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    border-color: #007bff;
+    transform: scale(1.05);
+}
+
+.screen-type {
+    margin-top: 20px;
+}
+
+.confirm-section {
+    margin-top: 30px;
+    display: none;
+}
+
+.confirm-section.active {
+    display: block;
+}
+
+.card .btn-book {
+    margin-top: 10px;
+}
